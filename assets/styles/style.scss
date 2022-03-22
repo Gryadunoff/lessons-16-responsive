@@ -521,7 +521,7 @@ button:active {
     top: calc(50% + 10px);
   }
 
-  /* Меняем гамбургер иконку, когда меню открыто */
+  
   .menu-btn.active span:nth-of-type(1) {
     display: none;
   }
@@ -540,7 +540,7 @@ button:active {
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 15px;
+    /* padding: 15px; */
     background: rgba(73, 134, 255, 0.9);
     transform: translateX(-100%);
     transition: transform 0.5s;
